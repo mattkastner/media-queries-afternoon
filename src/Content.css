@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Marmelad&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.content-container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.intro-container {
+    width: 101%;
+    min-height: 120vh;
+    color: white;
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle-intro-container {
+    height: 50%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome {
+    margin-bottom: 45px;
+    width: 100%;
+    font-size: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    font-family: 'Marmelad', sans-serif;
+}
+
+.meet-you {
+    margin-bottom: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.tell-me-btn {
+    width: 120px;
+    height: 9vh;
+    font-style: bold;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    background: #FED136;
+    border-color: #FED136;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+}
+
+.services-container {
+    width: 100%;
+    height: 150vh;
+    background: #181A1B;
+}
+
+/* Media Queries */
+@media (max-width: 900px) {
+    /* get rid of links */
+    .middle-intro-container {
+        width: 60%;
+    }
+    .tell-me-btn {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 450px) {
+    .mobile-menu > span{
+        display: none;
+    }
+    .welcome {
+        font-size: 32px;
+    }
+    .meet-you {
+        font-size: 45px;
+    }
+}
