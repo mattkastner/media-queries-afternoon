@@ -68,7 +68,7 @@
     background: #232527;
     position: fixed;
     top: -20vh;
-    transition: .3s;
+    transition: .6s;
     display: none;
     flex-direction: column;
     justify-content: flex-start;
